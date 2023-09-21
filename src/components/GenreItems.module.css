@@ -1,0 +1,15 @@
+.genreItem{
+    position: relative;
+    padding: 0.5rem 0.5rem;
+    display: flex;
+    width:12%;
+    text-align: center;
+    flex-direction: row;
+    border: inherit;
+    border-radius: 2rem;
+    font-size: 1rem;
+    letter-spacing: 0.1em;
+    justify-content: center;
+    align-self: center;
+}
+

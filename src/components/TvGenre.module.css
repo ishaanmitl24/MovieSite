@@ -1,0 +1,18 @@
+.genre{
+    position: relative;
+    padding: 0 4rem;
+    bottom: 2rem;
+    height:auto;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:0 1rem ;
+    justify-content: space-around;
+}
+.item{
+    background-color:#7f50ff;
+}
+.item:hover{
+    background-color:#a59b2a;
+}

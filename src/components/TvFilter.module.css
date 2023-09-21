@@ -1,0 +1,51 @@
+.main{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap:25rem;
+    justify-content: space-around;
+}
+.filter{
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    color: #ffffff;
+    gap:2.8rem;
+    letter-spacing: 0.1em;
+    font-size: 1;
+}
+.filter h1{
+    letter-spacing: 0.2em;
+}
+.icon{
+    position:relative;
+    top:2.5rem;
+    text-decoration: none;
+    outline: none;
+    color:rgb(165, 155, 42);
+}
+.filterHead{
+    padding:1rem 3rem;
+    margin-bottom: 1rem;
+    position: relative;
+}
+.filterHead hr{
+    width: 100%;
+    display: inline-block;
+}
+.series{
+    position: absolute;
+    bottom: 0.78rem;
+    left: 4.8rem;
+    background-color:#a59b2a;
+    color: #ffffff;
+    padding:0.5rem 1rem;
+    border-radius: 5px;
+}
+.see{
+    border: 2px solid rgb(165, 155, 42);
+}
+.see:Hover{
+    background-color:rgb(172, 163, 66);
+    color: #ffffff;
+}

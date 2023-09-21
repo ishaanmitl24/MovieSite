@@ -1,0 +1,60 @@
+.main{
+    width:100vw;
+    height:100%;
+    z-index: -20;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.circle{
+    height: 600px;
+    width: 600px;
+    background-color: #151515;
+    z-index: -19;
+}
+.secondCircle{
+    position:absolute;
+    border-radius: 50%;
+    top:200px;
+    right: 900px;
+}
+.bigCircle{
+    width:1340px;
+    height: 380px;
+    position: absolute;
+    bottom: 465px;
+    border-radius: 50%;
+    background-color:#151515;
+    z-index: -19;
+}
+
+@media (max-width:400px){
+    .bigCircle{
+        width:500px;
+        right: 10px;
+        height: 300px;
+        position: absolute;
+        bottom:550px;
+        border-radius: 50%;
+    }
+    .main{
+        z-index: -20;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+    }
+    .circle{
+        height: 200px;
+        width: 200x;
+        background-color: #151515;
+        z-index: -19;
+    }
+    .secondCircle{
+        position:absolute;
+        top:100px;
+        left:100px;
+
+       
+    }
+    
+}

@@ -1,0 +1,50 @@
+.main{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap:25rem;
+    justify-content: space-around;
+}
+.recommended{
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    color: #ffffff;
+    gap:2.8rem;
+    letter-spacing: 0.1em;
+    font-size: 1;
+}
+.recommended h1{
+    letter-spacing: 0.2em;
+}
+.graph{
+    position:relative;
+    top:2.5rem;
+    text-decoration: none;
+    outline: none;
+    color:rgb(91, 235, 91);
+}
+.recommendedHead{
+    padding:1rem 3rem;
+    margin-bottom: 1rem;
+    position: relative;
+}
+.recommendedHead hr{
+    width: 80%;
+    display: inline-block;
+}
+.series{
+    position: absolute;
+    bottom: 0.78rem;
+    left: 4.8rem;
+    background-color: rgb(18, 162, 18);
+    color: #ffffff;
+    padding:0.5rem 1rem;
+    border-radius: 5px;
+}
+.see{
+    border: 2px solid rgb(39, 166, 39);
+}
+.see:hover{
+    background-color:rgb(91, 235, 91);
+}

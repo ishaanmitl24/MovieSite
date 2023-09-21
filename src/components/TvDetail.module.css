@@ -1,0 +1,136 @@
+.main{
+    position: relative;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: #18181b;
+}
+.main h1{
+    font-family: 'Roboto';
+    position: relative;
+    bottom: 20px;
+    line-height: 1;
+    color: blueviolet;
+    letter-spacing: 0.2em;
+}
+.singlePage{
+    position: relative;
+    background: #101010;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: row;
+    width:90%;
+    height: 100%;
+    padding: 1rem;
+    gap:1rem;
+    box-shadow:4px 4px 1rem 2px rgb(175, 97, 247),-4px -4px 1rem 2px rgb(175,97,247) ;
+}
+.data{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width:80% ;
+    color: #ffffff;
+}
+
+.singlePage img{
+    position: relative;
+    height: 500px;
+    gap:5px;
+    object-fit:fill;
+    border-radius: 1rem;
+}
+.topHeading{
+    display: flex;
+    flex-direction: row;
+    gap:1px;
+    padding: 0;
+    margin: 0;
+}
+.topHeading h1{
+    position: relative;
+    top:2px;
+    letter-spacing:0.1em;
+}
+.topHeading p{
+    position: relative;
+    top:7px;
+    align-self: center;
+    letter-spacing: 0.05em;
+}
+.genre{
+    padding: 0%;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    border-bottom: 2px solid #222;
+    justify-content: flex-start;
+    gap:5px;
+    letter-spacing: 0.06em;
+}
+.rating .star{
+    font-size: 5rem;
+    color: yellow;
+}
+.rating{
+    letter-spacing: 0.06em;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    gap:1rem;
+    border-bottom: 2px solid #222;
+}
+.rate{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    line-height: 1.25;
+    text-align: justify;
+}
+.rate div{
+    line-height: 1.3;
+    letter-spacing: 0.07em;
+    padding: 10px;
+    color:#0bd2d2
+}
+.audio{
+    display: flex;
+    flex-direction: column;
+    gap:0;
+    letter-spacing: 0.05em;
+    border-bottom: 2px solid #222;
+}
+.audio span {
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+}
+.audio span .audioHead{
+    position: relative;
+    bottom: 2px;
+    font-size: 24px;
+}
+
+.audio .status {
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:10px;
+}
+.audio .status p{
+    position: relative;
+    top:2px;
+    align-self: center;
+}
+
+
+.audio .status strong{
+    align-self: center;
+    font-size: 25px;
+    color: rgb(43, 238, 43);
+}
+

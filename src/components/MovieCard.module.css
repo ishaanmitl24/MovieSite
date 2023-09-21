@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+.movieCard{
+    position: relative;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 2rem;
+}
+.movieCard:nth-child(4n+1){
+    box-shadow:8px 8px rgba(118, 29, 150, 1);
+}
+.movieCard:nth-child(4n+2){
+    box-shadow:8px 8px rgba(29, 150, 52, 1);
+}
+.movieCard:nth-child(4n+3){
+    box-shadow: 8px 8px rgba(167, 89, 33, 1);
+}
+.movieCard:nth-child(4n+0){
+    box-shadow: 8px 8px rgba(253, 80, 80, 1);
+}
+.movieCard img{
+    position: relative;
+    object-fit:fill;
+    width: 185px;
+    height: 250px;
+    border-radius: 2rem;
+    transition: 0.6s;
+    outline: none;
+}
+.intro{
+    margin: 0;
+    position: absolute;
+    text-align: center;
+    height:0px;
+    width: 185px;
+    bottom: 0px;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    box-sizing: border-box;
+    background-color:rgba(0, 0,0, 0.8);
+    color: white;
+    transition: 0.6s;
+}
+.star{
+    position:relative;
+    visibility: hidden;
+    opacity: 0;
+}
+.movieCard:hover{
+    cursor: pointer;
+}
+
+.intro h4{
+    display: inline-block;
+    position: relative;
+    width:80%;
+    font-size: 1rem;
+    font-family: 'Oswald', sans-serif;
+    bottom:1rem;
+    letter-spacing: 0.1em;
+}
+
+.movieCard:hover .intro{
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    align-items:center;
+}
+
+.movieCard:hover .star{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    gap:2rem;
+    visibility: visible;
+    opacity: 1;
+    position: relative;
+    bottom: 50px;
+}
+.movieCard:hover img{
+    transform: scale(1.2);
+}
+
+.star p{
+    color: #8f8f8f;
+}
+a{
+    text-decoration: none;
+}
